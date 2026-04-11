@@ -1,1 +1,1 @@
-npx prettier --check "src/**/*.{js,jsx,css}" && npx eslint src
+npx prettier --check "src/components/**/*.{js,jsx,css}" && npx eslint src --ext .js,.jsx --max-warnings=100

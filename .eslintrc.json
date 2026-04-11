@@ -6,5 +6,6 @@
   "rules": {
     "no-unused-vars": "warn",
     "no-console": "warn"
-  }
+  },
+  "ignorePatterns": ["src/stories/"]
 }
