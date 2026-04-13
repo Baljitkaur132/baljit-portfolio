@@ -15,7 +15,8 @@ Runs at: `http://localhost:5575`
 - React.js (Create React App)
 - Docker + Nginx
 - GitHub Actions (CI/CD)
-- ESLint + Prettier
+- ESLint + Prettier + Husky
+- Storybook
 - Node.js 20
 
 ## Portfolio Sections
@@ -50,4 +51,21 @@ docker build -t kaur-baljit-portfolio .
 docker run -d --name kaur_baljit_coding_assignment14 -p 5575:5575 kaur-baljit-portfolio
 ```
 
-### Step 4 — Open in browser 
+### Step 4 — Open in browser
+
+Visit: [http://localhost:5575](http://localhost:5575)
+
+### Step 5 — Stop and remove the container
+
+```bash
+docker stop kaur_baljit_coding_assignment14
+docker rm kaur_baljit_coding_assignment14
+```
+
+## CI/CD Pipeline
+
+This project uses GitHub Actions to automatically run on every push:
+- Prettier formatting check
+- ESLint linting
+- Unit tests
+- Production build
