@@ -5,7 +5,7 @@ const projects = [
       'A multi-page React portfolio site built with Create React App, dockerized and served via Nginx on port 5575. Includes CI/CD pipeline with GitHub Actions, ESLint, Prettier, and Husky.',
     image:
       'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=400&h=200&fit=crop',
-    link: 'https://github.com/jasbi/baljit-portfolio',
+    link: 'https://github.com/Baljitkaur132/baljit-portfolio',
     tech: ['React', 'Docker', 'Nginx', 'GitHub Actions'],
   },
   {
@@ -14,7 +14,7 @@ const projects = [
       'A reusable React component library built with Storybook. Includes buttons, forms, cards, and navigation components following atomic design principles.',
     image:
       'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=200&fit=crop',
-    link: 'https://github.com/jasbi',
+    link: 'https://github.com/Baljitkaur132',
     tech: ['React', 'Storybook', 'CSS'],
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       'A full-stack business management application built as part of WEBD-3012. Features user authentication, data management, and responsive design.',
     image:
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop',
-    link: 'https://github.com/jasbi',
+    link: 'https://github.com/Baljitkaur132',
     tech: ['React', 'Node.js', 'REST API'],
   },
 ];

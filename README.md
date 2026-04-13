@@ -50,4 +50,4 @@ docker build -t kaur-baljit-portfolio .
 docker run -d --name kaur_baljit_coding_assignment14 -p 5575:5575 kaur-baljit-portfolio
 ```
 
-### Step 4 — Open in browser
+### Step 4 — Open in browser 

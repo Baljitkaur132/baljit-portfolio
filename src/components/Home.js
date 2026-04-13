@@ -28,12 +28,16 @@ function Home() {
         }}
       >
         <h3>Contact</h3>
-        <p>📧 baljit@example.com</p>
+        <p>📧 baljitkaur132@gmail.com</p>
         <p>📍 Winnipeg, Manitoba</p>
         <p>
           🐙{' '}
-          <a href="https://github.com/jasbi" target="_blank" rel="noreferrer">
-            github.com/jasbi
+          <a
+            href="https://github.com/Baljitkaur132"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/Baljitkaur132
           </a>
         </p>
       </div>
